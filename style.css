@@ -1,0 +1,76 @@
+#container {
+    width: 300px;
+    margin: auto;
+    background: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px #ccc;
+}
+
+#container img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+@font-face {
+    font-family: DIN Next LT W23 Regular;
+    src: url(din-next-lt-w23-regular.ttf);
+}
+
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    font-family: DIN Next LT W23 Regular;
+}
+
+#content h1 {
+    color: #65A8B7;
+}
+
+#content button {
+
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    background: #4caab9;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px 5px 10px #ccc;
+    transition: all .2s;
+    font-family: DIN Next LT W23 Regular;
+}
+
+#content button:hover {
+    background: #2b3e84;
+}
+
+body {
+    background: #8078EC;
+}
+
+#top-bar {
+    color: white;
+    background: #65A8B7;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.top-bar-item {
+    float: right;
+    margin: 10px;
+}
+
+.top-bar-item:hover {
+    background: #2F3E7F;
+    padding: 10px;
+    margin: 0px;
+}
